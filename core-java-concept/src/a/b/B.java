@@ -6,9 +6,9 @@ public class B extends C {
     int b;
 
     void display() {
-        System.out.println(this.protectedvariable);
+        System.out.println(this.protectedVariable);
 //        System.out.println(this.privateVariable);
-//        System.out.println(this.defaultVariable);
+//       System.out.println(this.defaultVariable);
     }
 
 

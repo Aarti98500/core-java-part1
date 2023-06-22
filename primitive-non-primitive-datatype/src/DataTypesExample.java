@@ -1,5 +1,3 @@
-package src;
-
 public class DataTypesExample {
     public static void main(String[] args) {
         //DataTypes --> Single Line Comment

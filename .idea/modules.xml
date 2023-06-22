@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/array-example/array-example.iml" filepath="$PROJECT_DIR$/array-example/array-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional-control-statement/conditional-control-stmt-loops.iml" filepath="$PROJECT_DIR$/conditional-control-statement/conditional-control-stmt-loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructor-in-java/constructor-in-java.iml" filepath="$PROJECT_DIR$/constructor-in-java/constructor-in-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-java-concept/core-java-concept.iml" filepath="$PROJECT_DIR$/core-java-concept/core-java-concept.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-java-part1.iml" filepath="$PROJECT_DIR$/core-java-part1.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-world-java/hello-world-java.iml" filepath="$PROJECT_DIR$/hello-world-java/hello-world-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main-method-example/main-method-example.iml" filepath="$PROJECT_DIR$/main-method-example/main-method-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops-paradigms/oops-paradigms.iml" filepath="$PROJECT_DIR$/oops-paradigms/oops-paradigms.iml" />
       <module fileurl="file://$PROJECT_DIR$/primitive-non-primitive-datatype/primitive-non-primitive-datatype.iml" filepath="$PROJECT_DIR$/primitive-non-primitive-datatype/primitive-non-primitive-datatype.iml" />
     </modules>
   </component>

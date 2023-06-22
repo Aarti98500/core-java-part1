@@ -4,9 +4,9 @@ public class AnotherC {
 
     public static void main(String[] args) {
         C objectInsideSamePkg = new C();
-        objectInsideSamePkg.defaultvariable = 20;
-//         objectInsideSamePkg.privateVariableC = 30; not allowed
-        objectInsideSamePkg.protectedvariable = 40;
+        objectInsideSamePkg.defaultVariable = 20;
+ //       objectInsideSamePkg.privateVariableC = 30; not allowed
+        objectInsideSamePkg.protectedVariable = 40;
         objectInsideSamePkg.publicVariable = 100;
     }
 }

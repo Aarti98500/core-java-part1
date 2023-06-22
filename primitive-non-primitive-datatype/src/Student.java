@@ -1,18 +1,3 @@
-package src;/*
-  student properties
-     name - string
-     age - int
-     div - char
-     id - int
-     college name - string
-
-   student behaviour/action
-
-     study()
-     play()
-     commute()
- */
-
 public class Student {
     //properties or fields or attributes
     String name;
