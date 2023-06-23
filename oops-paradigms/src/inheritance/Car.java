@@ -1,10 +1,5 @@
 package inheritance;
 
-//Parent class Base class or Super class
-/*
-Inheritance reduces duplicate code and basic properties of similar classes can be extracted in a common
-class that we will call as base class. All similar classes will extend/inherit the base class.
- */
 
 import java.util.Arrays;
 
