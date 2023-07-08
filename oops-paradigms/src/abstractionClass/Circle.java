@@ -16,5 +16,12 @@ public class Circle extends Shape{
     @Override
     public double calculateArea() {
         return 3.14*radius*radius;
+
+
+    }
+
+    @Override
+    void displayMsg() {
+        super.displayMsg();
     }
 }
