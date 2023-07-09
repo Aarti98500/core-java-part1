@@ -1,8 +1,17 @@
 package inheritance.typesOfInheritance.Multiple;
 
-//public class D extends B,C{
-  //  @Override
-  //  void dispaly() {
- //       super.dispaly();
- //   }
-//}
+/*
+                       A
+
+                B             C
+
+                       D
+ */
+
+public class D extends B implements C{
+    @Override
+    public void display() {//This display is coming from interface C.
+        super.dispaly();
+        System.out.println("Display method called from class A.");
+    }
+}
