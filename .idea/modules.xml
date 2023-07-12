@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/oops-paradigms/oops-paradigms.iml" filepath="$PROJECT_DIR$/oops-paradigms/oops-paradigms.iml" />
       <module fileurl="file://$PROJECT_DIR$/primitive-non-primitive-datatype/primitive-non-primitive-datatype.iml" filepath="$PROJECT_DIR$/primitive-non-primitive-datatype/primitive-non-primitive-datatype.iml" />
       <module fileurl="file://$PROJECT_DIR$/read-write-from-console/read-write-from-console.iml" filepath="$PROJECT_DIR$/read-write-from-console/read-write-from-console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/string-string-builder-string-buffer/string-string-builder-string-buffer.iml" filepath="$PROJECT_DIR$/string-string-builder-string-buffer/string-string-builder-string-buffer.iml" />
     </modules>
   </component>
 </project>
