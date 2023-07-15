@@ -22,13 +22,13 @@ public class StringExample {
     public static void main(String[] args) {
 
 
-        String name = new String("Vikram");//this creates new object in SCP and heap both.
+        String name = new String("Dnyaneshwar");//this creates new object in SCP and heap both.
         System.out.println(name);
 
         String name2 = "Aarti";//this creates new object in SCP.
         System.out.println(name2);
 
-        name = name.concat("Gupta");//this creates new object in SCP and heap both.
+        name = name.concat("Inamdar");//this creates new object in SCP and heap both.
         System.out.println(name);
     }
 }
