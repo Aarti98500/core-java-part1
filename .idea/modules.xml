@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/core-java-concept/core-java-concept.iml" filepath="$PROJECT_DIR$/core-java-concept/core-java-concept.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-java-part1.iml" filepath="$PROJECT_DIR$/core-java-part1.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-world-java/hello-world-java.iml" filepath="$PROJECT_DIR$/hello-world-java/hello-world-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-classes-and-anonymous-examples/inner-classes-and-anonymous-examples.iml" filepath="$PROJECT_DIR$/inner-classes-and-anonymous-examples/inner-classes-and-anonymous-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/main-method-example/main-method-example.iml" filepath="$PROJECT_DIR$/main-method-example/main-method-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/mutable-immutable-string-stringbuilder-stringbuffer/mutable-immutable-string-stringbuilder-stringbuffer.iml" filepath="$PROJECT_DIR$/mutable-immutable-string-stringbuilder-stringbuffer/mutable-immutable-string-stringbuilder-stringbuffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops-paradigms/oops-paradigms.iml" filepath="$PROJECT_DIR$/oops-paradigms/oops-paradigms.iml" />
