@@ -1,3 +1,5 @@
+package some.enum1.example;
+
 import some.enum1.example.Direction;
 
 import java.util.Arrays;
@@ -7,8 +9,8 @@ public class Driver {
         System.out.println("Direction.values() : "+ Arrays.toString(Direction.values()));
 
         for (Direction direction : Direction.values()){
-            System.out.println(direction.getMsg());
+            System.out.println(direction.msg);
         }
-        System.out.println(Direction.NORTH.getMsg());
+        System.out.println(Direction.NORTH.msg);
     }
 }
