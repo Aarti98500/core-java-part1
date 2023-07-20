@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/constructor-in-java/constructor-in-java.iml" filepath="$PROJECT_DIR$/constructor-in-java/constructor-in-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-java-concept/core-java-concept.iml" filepath="$PROJECT_DIR$/core-java-concept/core-java-concept.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-java-part1.iml" filepath="$PROJECT_DIR$/core-java-part1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enum-example/enum-example.iml" filepath="$PROJECT_DIR$/enum-example/enum-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-world-java/hello-world-java.iml" filepath="$PROJECT_DIR$/hello-world-java/hello-world-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/inner-classes-and-anonymous-examples/inner-classes-and-anonymous-examples.iml" filepath="$PROJECT_DIR$/inner-classes-and-anonymous-examples/inner-classes-and-anonymous-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/main-method-example/main-method-example.iml" filepath="$PROJECT_DIR$/main-method-example/main-method-example.iml" />
