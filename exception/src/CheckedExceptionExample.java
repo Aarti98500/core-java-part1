@@ -10,15 +10,20 @@ import java.io.IOException;
 public class CheckedExceptionExample {
     public static void main(String[] args) throws IOException {
 
-      //  try {
+       try {
 
-        FileReader fileReader = new FileReader(":\\Users\\vikra\\IdeaProjects\\java-concepts\\exception\\src\\javaDoc.txt");
+        FileReader fileReader = new FileReader("javaDoc.txt");
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 
         for (int i = 0; i < 10; i++){
             System.out.println("LineNumber : "+i+" : "+bufferedReader.readLine());
         }
 
+        bufferedReader.close();
+        fileReader.close();
 
+
+    } catch (IOException ioException){
+        System.out.println(ioException.getMessage());
     }
-}
+}}
