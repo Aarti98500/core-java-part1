@@ -74,12 +74,6 @@ public class StreamExample {
             System.out.println("s1 is in filtre : " + s1);
             return s1.length() >= 5;
         });
-        .map(s2 -> {
-            String lower = s2.to();
-            System.out.println("s2 is in map : " + lower);
-            return lower;
-
-        })
 
 
     }
