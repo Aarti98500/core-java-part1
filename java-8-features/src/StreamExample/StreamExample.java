@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-import static sun.awt.image.MultiResolutionCachedImage.map;
-
 
 class Student {
     private final String name;
@@ -74,6 +72,7 @@ public class StreamExample {
             System.out.println("s1 is in filtre : " + s1);
             return s1.length() >= 5;
         });
+        .map
 
 
     }
