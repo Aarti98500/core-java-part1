@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Stream;
 
+import static sun.awt.image.MultiResolutionCachedImage.map;
+
 
 class Student {
     private final String name;
@@ -38,22 +40,6 @@ class Student {
         return Objects.hash(name, age);
     }
 
-    Stream<String> stringStream1 = guestList.stream();
-
-    Stream<String> stringStream2 = stringStream1.filter(s1 ->{
-        System.out.println("s1 is in filter : " + s1);
-        return s1.length() >= 5;
-    });
-
-    Stream<String> stringStream3 = stringStream2.map(s2 ->{
-        System.out.println("s2 is in map : " + s2);
-        return s2.toLowerCase();
-
-    });
-
-    stringStream3.forEach(s3 -> System.out.println("s3 in the stream - " + s3));
-
-    stringStream1.filtter(s3 -> System.out.println)
 }
 
 public class StreamExample {
@@ -70,6 +56,31 @@ public class StreamExample {
 
         //Streams are used to replace for and while loops.
 
-        Stream<String> StringStream1 = guestList.stream();
+        Stream<String> stringStream1 = guestList.stream();
+
+ //       Stream<String> stringStream2 = stringStream1.filter(s -> {
+ //           System.out.println("s1 is in filter : "+ s1);
+ //           return s1.length() >= 5;
+ //       });
+
+ //       Stream<String> stringStream3 = stringStream2.map(s2 ->{
+ //           System.out.println("s2 is in map : " + s2);
+ //           return s2.toLowerCase();
+ //       });
+
+ //       stringStream3.forEach(s3 -> System.out.println("s3 in the stream - " + s3));
+
+        stringStream1.filter(s1 ->{
+            System.out.println("s1 is in filtre : " + s1);
+            return s1.length() >= 5;
+        });
+        .map(s2 -> {
+            String lower = s2.to();
+            System.out.println("s2 is in map : " + lower);
+            return lower;
+
+        })
+
+
     }
 }
