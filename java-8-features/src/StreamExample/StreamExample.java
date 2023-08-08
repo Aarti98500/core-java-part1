@@ -72,7 +72,7 @@ public class StreamExample {
             System.out.println("s1 is in filtre : " + s1);
             return s1.length() >= 5;
         });
-        .map
+
 
 
     }
